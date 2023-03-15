@@ -8,9 +8,8 @@ public class Main {
 
         String name = scanner.nextLine();
         int age = Integer.parseInt(scanner.nextLine());
+        Chicken chicken = new Chicken(name,age);
 
-        Chiken chiken = new Chiken(name, age);
-
-        System.out.println(chiken);
+        System.out.println(chicken);
     }
 }

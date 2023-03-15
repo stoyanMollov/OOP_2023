@@ -13,11 +13,11 @@ package _02_animalFarm;
 */
 
 
-public class Chiken {
+public class Chicken {
     private String name;
     private int age;
 
-    public Chiken(String name, int age) {
+    public Chicken(String name, int age) {
         this.setName(name);
         this.setAge(age);
     }
